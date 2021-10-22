@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navegador {
+    justify-content: flex-end;
+    margin-right: 70px;
+    
+}
+
+.navbar {
+background-color:#2f3542;
+color: white;
+text-decoration: none;
+
+
+}
+.nav-link{
+    color: white;
+    
+
+}
+#tickets{
+    color:limegreen;
+}
+
+#imgcac {
+    width: auto;
+    height: 70px;
+    margin-left: 100px;
+}
+.contenedor{
+    
+    background-color: black;
+    
+      
+}
+#back1{
+    width:100%;
+    height: auto;
+    opacity: 50%;
+}
+#back2{
+    width:100%;
+    height: auto;
+    opacity: 50%;
+}
+#back3{
+    width:100%;
+    height: auto;
+    opacity: 50%;
+}
+h1{
+     font-size: 40px;
+     font-weight: 600;
+ }
+#confbsas{
+    color: white;
+    text-align: end;
+    position:absolute;
+    top: 20%;
+    right:10%;
+    left:auto;
+    bottom: 50%;
+    padding: 15px;
+    height: auto;
+    width: 50%;
+
+     }
+     
+#botonquiero{
+    background-color: transparent;
+    color:white ; 
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px ;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+     }
+#botonquiero:hover{
+    background-color: white; 
+    color:black;
+ }    
+ #botonticket {
+    
+    background-color:limegreen;
+    color:white ;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+
+    
+ }
+ #botonticket:hover{
+  color:black;
+}
+
+.titulos{
+    
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.card {
+    margin: 30px;
+}
+
+.octubre{
+    background-color: #2f3542;
+    color: white;
+}
+
+.formulario {
+  margin-top: 20px;
+    
+}
+.btnenviar{
+    background-color:limegreen;
+    color:white ;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+
+    
+}
+.btnenviar:hover{
+    color:black;
+}
+#piedePagina {
+    width: 100%;
+    align-items: center;
+    margin-top:20px;
+    padding:30px;
+    height: 150px;
+    color:white;
+    background-image: linear-gradient(to right, #04224b 0%, #365064 100%);
+    
+}
+.copy {
+    font-size: 15px;
+    text-align: center;
+}
+
+/*estilos tickets*/ 
+.tipoDescuento {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.estudiante, .trainee, .junior {
+    margin: 20px;
+    text-align: center;
+    
+    
+}
+.estudiante{
+    border: 2px solid blue;
+    
+}
+.trainee { 
+    border: 2px solid aqua;
+
+}
+.junior {
+    border: 2px solid  yellow;
+} 
+
+.totalPagar {
+    margin-top: 10px;
+    background-color:#82ccdd;
+    
+    border-radius: 5px;
+}

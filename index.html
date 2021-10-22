@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+    
+    
+
+    <title>TP Integrador</title>
+  </head>
+  <body>
+         
+       
+        <!-- Nuestro nav-->
+            <nav class="navbar  navbar-expand-md navbar-dark">
+              <a class="nav-link active" aria-current="page" href="index.html"><img src="codoacodo.png" id="imgcac" alt=""></a>
+
+           <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Conf Bs As</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Parte derecha del nav-->
+              <div class="collapse navbar-collapse navegador" id="navbarText">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#oradores">Los oradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#fecha">El lugar y la fecha</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#conviertete">Conviértete en orador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="tickets" href="tickets.html">Comprar tickets</a>
+                  </li>
+                </ul>
+              </div>
+             </div>
+        </nav>
+      
+  <!-- nuestro carrousel-->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide contenedor row col" data-bs-ride="carousel">
+    <div class="carousel-inner">
+          <div class="carousel-item active">
+                <img src="ba1.jpg" class="d-block w-100" id="back1" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="ba2.jpg" class="d-block w-100" id="back2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="ba3.jpg" class="d-block w-100"  id="back3" alt="...">
+          </div>
+        
+        <div class="" id=""> 
+
+              <div class="carousel-caption " id="confbsas">
+                        <h1>Conf Bs as</h1>
+                        <p id="invitacion">
+                        Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembrso del evento, a otros estudiantes de Codo a Codo y a los oradores de pimer nivel que tenemos para ti. Te esperamos!</p>
+            
+                        <button type="button" id="botonquiero">Quiero ser orador</button>
+            
+                        <button type="button" id="botonticket">Comprar Tickets</button>
+               </div>
+
+        </div>
+      </div>
+    </div>
+ 
+
+   <!-- titulos-->
+
+   <div class="titulos" id="oradores">
+          <h5>Conoce a los</h5>
+          <h2>ORADORES</h2>
+   </div>
+
+   <!-- Cards -->
+
+   <div class="container">
+    <div class="card-group">
+      <div class="card">
+
+        <img src="steve.jpg" class="card-img-top steve" alt="...">
+        <div class="card-body">
+          <!-- inicio badges-->
+          <span class="badge bg-warning text-dark">Javascript</span>
+          <span class="badge bg-info text-dark">React</span>
+        <!-- fin badges-->
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae neque minima, porro ad maxime reiciendis voluptatem atque. Exercitationem nesciunt veritatis quod, ab vero quasi, dolorum odit non aut, corrupti quia..</p>
+           
+         
+          
+        </div>
+      </div>
+      <div class="card">
+
+        <img src="bill.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body"><!-- inicio badges-->
+          <span class="badge bg-warning text-dark">Javascript</span>
+          <span class="badge bg-info text-dark">React</span>
+        <!-- fin badges-->
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum sit porro distinctio, obcaecati fuga provident quasi consequuntur voluptatum beatae sed iure ducimus illo. Harum eaque officiis officia cumque odit!</p>
+           
+          
+        </div>
+      </div>
+      <div class="card">
+
+        <img src="ada.jpeg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <!-- inicio badges-->
+          <span class="badge rounded-pill bg-secondary">Negocios</span>
+          <span class="badge rounded-pill bg-danger">Startups</span>
+          <!-- fin badges-->
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic voluptate facilis molestiae eaque tenetur dolore laudantium qui, atque iste pariatur voluptatibus veniam aliquam nostrum est accusantium totam earum numquam ex.</p>
+           
+          
+           
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  <!-- terinan las cards-->
+
+  <!-- imagen con info-->
+  <div class="card"> 
+    <div class="row g-0 ">
+      <div class="col-md-6">
+        <img src="honolulu.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-6 octubre"  id="fecha" >
+        <div class="card-body">
+          <h3 class="card-title">Bs As - Octubre</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A provident mollitia, labore ipsam exercitationem cupiditate iusto impedit minima neque nemo aspernatur omnis temporibus laborum dolore ipsa, sint animi. Laboriosam, reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nostrum sed animi vel dolor eius voluptatum quis totam cupiditate hic quisquam, cum odit ratione doloribus magnam similique nam error aliquam.</p>
+          <button type="button" id="botonquiero">Conocé más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Segundos títulos-->
+
+  <div class="titulos" id="conviertete">
+    <h5>CONVIÉRTETE EN UN</h5>
+    <h2>ORADOR</h2>
+</div>
+  
+<!-- fORMULARIO-->
+
+<div class="titulos">
+    <h5>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h5>
+    
+</div>
+
+  <div class="row gap-3 col-8 mx-auto formulario">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"></label>
+      <textarea class="form-control" placeholder="Sobre que vas a hablar?" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+ 
+    <div class="titulos">
+      <h5>Recuerda incluir un título para tu charla</h5>
+      
+  </div>
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btnenviar" type="button">Enviar</button>
+    
+  </div>
+
+
+
+</div>
+
+        
+
+
+  <!-- footer-->
+
+  <footer id="piedePagina">
+
+    <div>
+       <div class="row text-center">
+           <div class="col">
+               <p>Preguntas Frecuentes</p>
+           </div>
+           <div class="col">
+               <p> Contactanos</p>
+           </div>
+           <div class="col">
+                   <p>Prensa</p>
+           </div>
+           <div class="col">
+                   <p>Conferencias</p>
+           </div>
+           <div class="col">
+                 <p>Términos y Condiciones</p>
+           </div>
+           <div class="col">
+               <p>Privacidad</p>
+           </div>
+           <div class="col">
+                   <p>Estudiantes</p>
+           </div>
+       </div>
+   </div>
+
+   <div class="copy"> 
+         <p>TP Integrador - ©2021 Diego Barros - Codo a Codo </p>  
+   </div>
+</footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
